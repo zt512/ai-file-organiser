@@ -12,6 +12,18 @@ A Python tool that automatically organises files into categories based on file t
 2. Enter folder path
 3. Files will be sorted automatically
 
+## Example
+
+Before:
+Downloads/
+  file1.pdf
+  image.png
+
+After:
+Downloads/
+  Documents/file1.pdf
+  Images/image.png
+
 ## Tech
 - Python
 - File handling (os, shutil)
